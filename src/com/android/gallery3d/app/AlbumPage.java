@@ -730,6 +730,11 @@ public class AlbumPage extends ActivityState implements GalleryActionBar.Cluster
                 mRootPane.invalidate();
                 break;
             }
+            case SelectionManager.DESELECT_ALL_MODE: {
+                mActionModeHandler.updateSupportedOperation();
+                mRootPane.invalidate();
+                break;
+            }
         }
     }
 
