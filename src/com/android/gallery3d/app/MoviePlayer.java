@@ -79,7 +79,7 @@ import java.util.Map;
 
 public class MoviePlayer implements
         MediaPlayer.OnErrorListener, MediaPlayer.OnCompletionListener,
-        ControllerOverlay.Listener, SensorEventListener
+        ControllerOverlay.Listener, SensorEventListener,
         MediaPlayer.OnInfoListener,
         MediaPlayer.OnPreparedListener,
         MediaPlayer.OnSeekCompleteListener,
